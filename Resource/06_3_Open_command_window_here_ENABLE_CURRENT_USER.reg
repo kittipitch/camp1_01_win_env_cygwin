@@ -1,0 +1,48 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Directory\Background\shell\cmd]
+@="Open Command Prompt Here"
+"Icon"="C:\\Windows\\system32\\cmd.exe"
+"Extended"=-
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Directory\Background\shell\cmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Directory\shell\cmd]
+@="Open Command Prompt Here"
+"Icon"="C:\\Windows\\system32\\cmd.exe"
+"Extended"=-
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Directory\shell\cmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+	
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Drive\Background\shell\cmd]
+@="Open Command Prompt Here"
+"Icon"="C:\\Windows\\system32\\cmd.exe"
+"Extended"=-
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Drive\Background\shell\cmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Drive\shell\cmd]
+@="Open Command Prompt Here"
+"Icon"="C:\\Windows\\system32\\cmd.exe"
+"Extended"=-
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\Drive\shell\cmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\shell\cmd]
+@="Open Command Prompt Here"
+"Icon"="C:\\Windows\\system32\\cmd.exe" 
+"Extended"=-
+
+[HKEY_CURRENT_USER\SOFTWARE\Classes\DesktopBackground\shell\cmd\command]
+@="cmd.exe /s /k pushd \"%V\""
+
+
+
